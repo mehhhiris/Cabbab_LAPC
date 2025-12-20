@@ -18,7 +18,7 @@ body {
 }
 
 .hero {
-    background-image: url("images/assignment_3/Headphones.jpg");
+    background-image: url("images/assignment_3/headphones.jpg");
     background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;
@@ -166,3 +166,4 @@ body {
     opacity: 0.8;
 
 }
+
