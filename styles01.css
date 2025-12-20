@@ -36,53 +36,42 @@ h1 {
     padding-bottom: 50px;
 }
 
-.page-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 50px;
-    padding-bottom: 100px;
-    max-width: 850px;
-    justify-items: center;
-    margin: 0 auto;
+.page-list a {
+  text-decoration: none;
+  color: rgb(253, 253, 250);
+  font-family: "Special Gothic Expanded One", sans-serif;
+  text-align: center;
+  display: block;
 
-    a {
-        text-decoration: none;
-        color: rgb(253, 253, 250);
-        font-family: "Special Gothic Expanded One", sans-serif;
-        text-align: center;
-        display: block;
-        width: 400px;
-        height: 400px;
-        background-color: rgb(30, 114, 86);
-        align-content: end;
-        padding-bottom: 50%;
-        font-size: 25px;
+  width: 400px;
+  height: 400px;
 
+  background-color: rgb(30, 114, 86);
+  background-size: cover;
+  background-position: center;
 
-        &.armoury {
-            background-image: url("images/assignment_1/abys-arm.png");
-            background-size: cover;
-            background-position: center;
-        }
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 40px;
 
-        &.miu-observatory {
-            background-image: url("images/assignment_1/miu-obs.png");
-            background-size: cover;
-            background-position: center;
-        }
+  font-size: 25px;
+}
 
-        &.projects {
-            background-image: url("images/assignment_1/proj.png");
-            background-size: cover;
-            background-position: center;
-        }
+.page-list a.armoury {
+  background-image: url("images/assignment_1/abys-arm.png");
+}
 
-        &.self-intro {
-            background-image: url("images/assignment_1/hammer.jpg");
-            background-size: cover;
-            background-position: center;
-        }
-    }
+.page-list a.projects {
+  background-image: url("images/assignment_1/proj.png");
+}
+
+.page-list a.miu-observatory {
+  background-image: url("images/assignment_1/miu-obs.png");
+}
+
+.page-list a.self-intro {
+  background-image: url("images/assignment_1/hammer.jpg");
 }
 
 p {
@@ -90,5 +79,5 @@ p {
     font-family: ubuntu, sans-serif;
     text-align: center;
     padding-top: 20px;
-
 }
+
