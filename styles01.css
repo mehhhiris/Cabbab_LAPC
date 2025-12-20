@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("../images/sitebg.png");
+    background-image: url("images/sitebg.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -60,25 +60,25 @@ h1 {
 
 
         &.armoury {
-            background-image: url("../images/assignment_1/abys-arm.png");
+            background-image: url("images/assignment_1/abys-arm.png");
             background-size: cover;
             background-position: center;
         }
 
         &.miu-observatory {
-            background-image: url("../images/assignment_1/miu-obs.png");
+            background-image: url("images/assignment_1/miu-obs.png");
             background-size: cover;
             background-position: center;
         }
 
         &.projects {
-            background-image: url("../images/assignment_1/proj.png");
+            background-image: url("images/assignment_1/proj.png");
             background-size: cover;
             background-position: center;
         }
 
         &.self-intro {
-            background-image: url("../images/assignment_1/hammer.jpg");
+            background-image: url("images/assignment_1/hammer.jpg");
             background-size: cover;
             background-position: center;
         }
@@ -90,4 +90,5 @@ p {
     font-family: ubuntu, sans-serif;
     text-align: center;
     padding-top: 20px;
+
 }
