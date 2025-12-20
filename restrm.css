@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/sitebg.png");
+    background-image: url("images/sitebg.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -51,3 +51,4 @@ body {
 .restricted-img{
     position: relative;
 }
+
